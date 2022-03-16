@@ -165,8 +165,7 @@ a:focus {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
-    gap: 16px
-    ;
+    gap: 16px;
 }
 
 .c-author-image{
