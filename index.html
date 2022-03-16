@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-      <p><time datetime="2018-17-02">17 februari 2018</time></p>
+      <p><time datetime="2018-02-17">17 februari 2018</time></p>
       <h1>Balancing Line Length And Font Size In Responsive Web Design</h1>
     </header>
     <figure>
@@ -32,9 +32,16 @@
         <source srcset="img/picture.jpg" media="(min-width: 992px)" />
         <source srcset="img/picture-medium@2x.jpg" media="(min-width: 768px)" />
         <source srcset="img/picture-medium.jpg" media="(min-width: 576px)" />
-        <img srcset="img/picture-square@2x.jpg" alt="Picture of girl reading on a tablet" />
+        <img src="img/picture-square@2x.jpg" srcset="img/picture-square@2x.jpg" alt="Picture of girl reading on a tablet" />
       </picture>
     </figure>
+    <div class="c-author">
+        <img src="img/avatar.jpg" alt="Simon Coudeville" class="c-author-image">
+        <div class="c-author-caption">
+            <h2 class="c-author-name">Simon Coudeville</h2>
+            <p class="c-author-meta">User Interface Designer</p>
+        </div>
+    </div>
     <p>
       As we refine our methods of responsive web design,* we’ve increasingly focus*ed on measure
       (another word for “line length”) and its relationship to how people read. The popularization

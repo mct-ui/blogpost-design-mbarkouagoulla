@@ -79,6 +79,10 @@ h2 {
     margin: 0 0 24px;
 }
 
+* + h2{
+    margin-top: 48px;
+}
+
 h3 {
     font-size: 18px;
     line-height: 24px;
@@ -156,6 +160,34 @@ a:focus {
     color: #00E6A1;;
 }
 
+/* Components: author */
+.c-author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px
+    ;
+}
+
+.c-author-image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.c-author-name,
+.c-author-meta{
+    margin-bottom: 0px;
+}
+ .c-author-name{
+     font-size: 16px;
+     line-height: 24px;
+ }
+
+.c-author-meta{
+    font-size: 14px;
+    font-family: "inter web", Helvetica,Arial, sans-serif;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
